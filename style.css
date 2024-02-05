@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* start banner section */
+header {
+    width: 100%;
+    height: 980px;
+    background-image: url(images/omar4.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.profileimg {
+    width: 100%;
+    text-align: center;
+}
+
+.profileimg img {
+    width: 450px;
+    border-radius: 50%;
+    margin-top: 145px;
+}
+
+header .content {
+    color: gainsboro;
+    text-align: center;
+    margin-top: 70px;
+}
+
+header .content h1 {
+    line-height: 1.5;
+    font-size: 50px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+header .content span {
+    color: #b7986c;
+    font-size: 50px;
+}
+
+header .content h3 {
+    line-height: 1.5;
+    font-size: 25px;
+    color: #ffca6f;
+}
+
+header .content button {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 900;
+    background-color: rgba(220, 220, 220, 0);
+    cursor: pointer;
+    border: 1px solid #ffd41b;
+    border-radius: 25px;
+    margin-top: 15px;
+    text-transform: capitalize;
+    transition: transform .2s;
+}
+
+header .content button:hover {
+    background-color: #FBC901;
+    transform: scale(1.1);
+}
+
+header .content button a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+header .content button a:hover {
+    color: #0a0a0a;
+}
+
+#conta {
+    scroll-behavior: smooth;
+}
+
+.cl {
+    clear: both;
+}
+
+/* end banner section */
+
+/* start about section */
+
+.aboutcon {
+    width: 100%;
+    height: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.about {
+    width: 80%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.about .ltxt {
+    width: 25%;
+    float: left;
+}
+
+.about .ltxt h1 {
+    font-size: 65px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.about .rtxt {
+    width: 60%;
+    float: right;
+    margin-right: 115px;
+}
+
+.about .rtxt p {
+    line-height: 1.25;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.about .rtxt button {
+    padding: 10px;
+    font-size: 17px;
+    background-color: #000000e8;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 25px;
+    text-transform: capitalize;
+    border: 4px solid #ffd41b;
+    transition: transform .2s;
+}
+
+.about .rtxt button:hover {
+    background-color: #FBC901;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* end about section */
+
+/* start skills section */
+.skills {
+    width: 100%;
+    height: 700px;
+    background-color: #000000e8;
+    padding-top: 100px;
+}
+
+.skills .skilltxt {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.skills .skilltxt h1 {
+    font-size: 65px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.skilltxtp {
+    width: 60%;
+    color: white;
+    margin: 0 auto;
+}
+
+.skilltxtp p {
+    line-height: 1.25;
+    font-size: 22px;
+    text-align: justify center;
+    padding-top: 15px
+}
+
+.skillac {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.focus {
+    width: 15%;
+    float: left;
+    margin-left: 310px;
+}
+
+.focus h2 {
+    color: #ffd41b;
+    border-bottom: 4px solid white;
+    line-height: 2;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.focus h3 {
+    line-height: 2;
+    color: #c4c4c4;
+}
+
+.container {
+    width: 27%;
+    float: right;
+    margin-right: 300px;
+}
+
+.box {
+    width: 400px;
+    height: 30px;
+    background-color: white;
+    margin-bottom: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.box .sup {
+    width: 100px;
+    height: 30px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.box .sup p {
+    font-size: 19px;
+    font-family: 'Libre Baskerville', serif;
+    color: #fff
+}
+
+.box .prograss1 {
+    width: 260px;
+    height: 30px;
+    background-color: #bcbcbc;
+    float: left;
+}
+
+.box .prograss2 {
+    width: 230px;
+    height: 30px;
+    background-color: #bcbcbc;
+    float: left;
+}
+
+.box .prograss3 {
+    width: 200px;
+    height: 30px;
+    background-color: #bcbcbc;
+    float: left;
+}
+
+.box .prograss4 {
+    width: 180px;
+    height: 30px;
+    background-color: #bcbcbc;
+    float: left;
+}
+
+.box p {
+    margin-top: 5px;
+}
+
+
+/* end skills section */
+/* start portfolio section */
+.portfolio {
+    width: 100%;
+    height: 700px;
+    padding-top: 150px;
+}
+
+.portcont {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio h1 {
+    font-size: 65px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.portfolio .container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.portfolio .container .pic {
+    width: 30%;
+    height: 200px;
+    color: white;
+    background-color: #b7986c;
+    text-align: center;
+    float: left;
+    margin: 20px;
+    transition: transform .2s;
+}
+
+.portfolio .container .pic:hover {
+    transform: scale(1.1);
+}
+
+.portfolio h2 {
+    padding-top: 80px;
+}
+
+.portfolio .container .pic:nth-child(2) {
+    background-color: #ffca6f;
+}
+
+.portfolio .container .pic:nth-child(3) {
+    background-color: #b7986c;
+}
+
+.portfolio .container .pic:nth-child(4) {
+    background-color: #ffca6f;
+}
+
+.portfolio .container .pic:nth-child(5) {
+    background-color: #b7986c;
+}
+
+.portfolio .container .pic:nth-child(6) {
+    background-color: #ffca6f;
+}
+
+.container .line {
+    width: 26%;
+    border-bottom: 4px solid white;
+    margin: 6px auto;
+}
+
+.container .line1 {
+    width: 33%;
+    border-bottom: 4px solid white;
+    margin: 6px auto;
+}
+
+.container .line2 {
+    width: 30%;
+    border-bottom: 4px solid white;
+    margin: 6px auto;
+}
+
+
+
+
+
+
+.contact {
+    padding-top: 10px;
+    width: 100%;
+    height: 200px;
+    background-color: #0a0a0a;
+    color: white;
+}
+
+.con {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.lfcontact {
+    width: 25%;
+    float: left;
+}
+
+.lfcontact h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lfcontact p {
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.cecontact {
+    float: left;
+    padding-top: 55px;
+    padding-left: 300px;
+}
+
+.cecontact button {
+    padding: 10px;
+    font-size: 17px;
+    background-color: #000000e8;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 25px;
+    text-transform: capitalize;
+    border: 4px solid #ffd41b;
+    transition: transform .2s;
+}
+
+.cecontact button:hover {
+    background-color: #FBC901;
+    color: black;
+    transform: scale(1.1);
+}
+
+.ricontact {
+    float: right;
+    padding-top: 55px;
+}
+
+.ricontact p {
+    letter-spacing: 15px;
+    font-size: 27px;
+}
+
+.ricontact h3 {
+    padding-top: 25px;
+}
+
+.ricontact h4 {
+    font-family: 'Ephesis', cursive;
+    font-size: 21px;
+}
+
+/* end portfolio section */
+
+progress {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #ffd41b;
+}
